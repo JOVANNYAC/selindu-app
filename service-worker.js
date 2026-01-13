@@ -1,14 +1,15 @@
-const CACHE_NAME = "taller-pwa-v1";
+const CACHE_NAME = "taller-pwa-v3"; // cambia versión
 
 const FILES_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/css/styles.css",
-  "/js/app.js",
-  "/assets/icons/icon-192.png",
-  "/assets/icons/icon-512.png"
+  "./",
+  "./index.html",
+  "./manifest.json",
+  "./css/styles.css",
+  "./js/app.js",
+  "./assets/icons/icon-192.png",
+  "./assets/icons/icon-512.png"
 ];
+
 
 // Instalación del service worker
 self.addEventListener("install", event => {
